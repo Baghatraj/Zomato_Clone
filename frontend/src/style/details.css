@@ -1,0 +1,28 @@
+
+
+.carousel{
+    height: 400px;
+}
+
+.img1{
+    height: 400px;
+}
+
+.btn-order{
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+    background-color: tomato;
+    padding: 5px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    .carousel{
+        height: 300px;
+    }
+    .img1{
+        height: 300px;
+    }
+    
+}

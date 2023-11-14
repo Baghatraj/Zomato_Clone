@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+/* .main{
+    background-color: transparent;
+} */
+
+.flex {
+    display: flex;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    height: 43px;
+}
+
+.logo {
+    margin-top: 3px;
+    display: flex;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: #fff;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    color: orange;
+}
+
+.buttons {
+    font-size: 18px;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+}
+
+.login {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.create {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.btn-style{
+    text-align: start;
+    width: 300px;
+    background-color: #fff;
+    border: 2px outset;
+    margin-bottom: 5px
+}
+
+.filter-border{
+    border: 2px outset;
+    width: fit-content;
+}
+
+.box {
+    width: 900px;
+    border: 2px outset;
+    height: 200px;
+}
+
+.box1{
+    display: flex;
+}
+
+.margin-bottom {
+    margin-bottom: 36px;
+}
+
+.img {
+    margin: 15px 15px 0 15px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+.desc {
+    margin-top: 10px;
+}
+
+@media screen and (min-width:380px) and (max-width:576px){
+    .btn-style{
+        margin-left: 40px ;
+    }
+    .filter-border{
+        width: 300px;
+        border-top: none;
+        padding-left: 5px;
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+    .box{
+        width: 300px;
+        height: 300px;
+        margin-left: 40px;
+    }
+
+    .margin-bottom {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .btn-style{
+        margin-left: 25px ;
+    }
+    .filter-border{
+        width: 300px;
+        border-top: none;
+        padding-left: 5px;
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+    .box{
+        width: 300px;
+        height: 300px;
+        margin-left: 25px;
+    }
+
+    .margin-bottom {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width:900px) {
+    .h2{
+        margin-left: 100px;
+    }
+    .btn-style{
+        width: 500px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    .box{
+        width: 500px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+
+    .filter-border{
+        width: 500px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+}
