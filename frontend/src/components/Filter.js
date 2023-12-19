@@ -109,7 +109,7 @@ const Filter = () => {
     const indexOfLastRestaurant = currentPage * restaurantsPerPage;
     const indexOfFirstRestaurant = indexOfLastRestaurant - restaurantsPerPage;
     const length = Math.ceil(restaurants.length / restaurantsPerPage)
-    const currentRestaurants = restaurants.slice(indexOfFirstRestaurant, indexOfLastRestaurant);
+    const currentRestaurants = restaurants.length > 0 ? restaurants.slice(indexOfFirstRestaurant, indexOfLastRestaurant) : 0;
 
     const handleDetail = (e) =>{
         const name = e.name
